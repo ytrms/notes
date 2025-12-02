@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       X: "https://x.com/loregrav",
       GitHub: "https://github.com/ytrms",
-      "lorenzogravina.com": "https://lorenzogravina.com",
+      "Main personal website": "https://lorenzogravina.com",
     },
   }),
 }
@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        //{ Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),
