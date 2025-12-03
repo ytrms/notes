@@ -4,4 +4,4 @@ tags:
 ---
 It looks like you found my notes. That's serendipitous.
 
-May I interest you in some [[Software Recommendations]]?
+Do you wanna hear about [[Software recommendations|my favorite software]]?  No?

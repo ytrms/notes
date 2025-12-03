@@ -16,7 +16,7 @@ interface ContentMetaOptions {
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: false,
-  showComma: true,
+  showComma: false,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -30,7 +30,13 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+        const date = getDate(cfg, fileData)
+        if (date) {
+          if (cfg.defaultDateType === "modified") {
+            segments.push(<span>Page updated </span>)
+          }
+          segments.push(<Date date={date} locale={cfg.locale} />)
+        }
       }
 
       // Display reading time if enabled

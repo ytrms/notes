@@ -9,6 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       X: "https://x.com/loregrav",
+      YouTube: "https://www.youtube.com/@trms_me",
       GitHub: "https://github.com/ytrms",
       "Main personal website": "https://lorenzogravina.com",
     },
@@ -18,12 +19,12 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
+    // Component.ConditionalRender({
+    //   component: Component.Breadcrumbs(),
+    //   condition: (page) => page.fileData.slug !== "index",
+    // }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    // Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
@@ -44,7 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     // Component.Graph(), // 2025-12-01: Removing graph view for now
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    // Component.Backlinks(),
   ],
 }
 
