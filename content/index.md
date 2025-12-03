@@ -1,4 +1,7 @@
 ---
 title: Home
+tags:
 ---
-Hey! Nice to see you. Welcome to my corner of the Internet.
+It looks like you found my notes. That's serendipitous.
+
+May I interest you in some [[Software Recommendations]]?

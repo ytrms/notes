@@ -10,12 +10,20 @@ export const Favicon: QuartzEmitterPlugin = () => ({
     const iconPath = joinSegments(QUARTZ, "static", "icon.png")
 
     const faviconContent = sharp(iconPath).resize(48, 48).toFormat("png")
+    const faviconDarkContent = sharp(iconPath).resize(48, 48).negate().toFormat("png")
 
     yield write({
       ctx: { argv } as BuildCtx,
       slug: "favicon" as FullSlug,
       ext: ".ico",
       content: faviconContent,
+    })
+
+    yield write({
+      ctx: { argv } as BuildCtx,
+      slug: "static/icon-dark" as FullSlug,
+      ext: ".png",
+      content: faviconDarkContent,
     })
   },
   async *partialEmit() {},

@@ -82,7 +82,8 @@ export default (() => {
           </>
         )}
 
-        <link rel="icon" href={iconPath} />
+        <link rel="icon" href={iconPath} media="(prefers-color-scheme: light)" />
+        <link rel="icon" href={joinSegments(baseDir, "static/icon-dark.png")} media="(prefers-color-scheme: dark)" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 

@@ -1,0 +1,49 @@
+---
+draft: "true"
+---
+# Front matter tags supported by Quartz
+https://quartz.jzhao.xyz/plugins/Frontmatter
+
+- title
+    - `title`
+- description
+    - `description`
+- permalink
+    - `permalink`
+- comments
+    - `comments`
+- lang
+    - `lang`
+- publish
+    - `publish`
+- draft
+    - `draft`
+- enableToc
+    - `enableToc`
+- tags
+    - `tags`
+    - `tag`
+- aliases
+    - `aliases`
+    - `alias`
+- cssclasses
+    - `cssclasses`
+    - `cssclass`
+- socialDescription
+    - `socialDescription`
+- socialImage
+    - `socialImage`
+    - `image`
+    - `cover`
+- created
+    - `created`
+    - `date`
+- modified
+    - `modified`
+    - `lastmod`
+    - `updated`
+    - `last-modified`
+- published
+    - `published`
+    - `publishDate`
+    - `date`
