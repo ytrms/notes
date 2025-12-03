@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software recommendations.md",
+                "file": "Software I recommend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software recommendations"
-            }
-          },
-          {
-            "id": "d4af7b7adf564b90",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://quartz.jzhao.xyz/plugins/AliasRedirects",
-                "title": "AliasRedirects",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "AliasRedirects"
+              "title": "Software I recommend"
             }
           }
         ]
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software recommendations.md",
+                "file": "Software I recommend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Software recommendations"
+              "title": "Backlinks for Software I recommend"
             }
           },
           {
@@ -127,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software recommendations.md",
+                "file": "Software I recommend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Software recommendations"
+              "title": "Outgoing links from Software I recommend"
             }
           },
           {
@@ -170,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software recommendations.md",
+                "file": "Software I recommend.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Software recommendations"
+              "title": "Outline of Software I recommend"
             }
           },
           {
@@ -185,7 +171,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Software recommendations.md"
+                "file": "Software I recommend.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -202,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -226,14 +212,14 @@
   },
   "active": "6fb8ee8376439603",
   "lastOpenFiles": [
+    "Bored?.md",
+    "Software I recommend.md",
     "!meta.md",
-    "Software recommendations.md",
     "index.md",
     "State of the Apps – 2025.md",
     "hobbies/cubing.md",
     "andy-klise-square-1.pdf",
     "hobbies",
-    "Bored?.md",
     "Untitled Kanban.md",
     "Excalidraw/Drawing 2025-12-02 22.52.44.excalidraw.md",
     "Excalidraw",

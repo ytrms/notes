@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 - Make a small videogame
     - with [dragonruby](https://dragonruby.org/)
     - with [godot](https://www.notion.so/2af5791c975f81ac9852f2c948f5bcbe?pvs=21)
