@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "fa2acfa855b26275",
+    "id": "a690101f22f4cd0c",
     "type": "split",
     "children": [
       {
-        "id": "3813f59bbede7647",
+        "id": "9f8f374109c6e6bd",
         "type": "tabs",
         "children": [
           {
-            "id": "fa875792b1b3c638",
+            "id": "6fb8ee8376439603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "hobbies/cubing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "cubing"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "da394d372d5ec8c3",
+    "id": "ed2a7a4e7fd942e4",
     "type": "split",
     "children": [
       {
-        "id": "9fecab0bcc2dd5a9",
+        "id": "87604efddf38f73e",
         "type": "tabs",
         "children": [
           {
-            "id": "cebad15a3c4fc9a0",
+            "id": "d505358ee8423328",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "a663d0f02ef5b656",
+            "id": "f5bc630cabad032a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "64ab2414a4d2f486",
+            "id": "42ada895bef1155f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "03f6d908e8e0bb7c",
+    "id": "1cf36a7cf8c2d2ae",
     "type": "split",
     "children": [
       {
-        "id": "bc4ee58272c6ee1e",
+        "id": "66b5247241edc453",
         "type": "tabs",
         "children": [
           {
-            "id": "9467e29723724a0c",
+            "id": "18a00c616f012ce8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "hobbies/cubing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for cubing"
             }
           },
           {
-            "id": "3426ae075d861bde",
+            "id": "cb7bdc708ece7d15",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "hobbies/cubing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from cubing"
             }
           },
           {
-            "id": "c03de831ccbab651",
+            "id": "9af5d67810e5502c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +137,7 @@
             }
           },
           {
-            "id": "109b79d56d04c762",
+            "id": "1ff2a31b95d47706",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,20 +151,44 @@
             }
           },
           {
-            "id": "a0e2ea906a244ddf",
+            "id": "7dd02a0016235122",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "hobbies/cubing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of cubing"
+            }
+          },
+          {
+            "id": "38502ffd3e1126e6",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "hobbies/cubing.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "cfcfa7504128d0fa",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -177,9 +203,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa875792b1b3c638",
-  "lastOpenFiles": []
+  "active": "6fb8ee8376439603",
+  "lastOpenFiles": [
+    "andy-klise-square-1.pdf",
+    "index.md",
+    "hobbies/cubing.md",
+    "hobbies",
+    "Software Recommendations.md",
+    "!meta.md",
+    "Bored?.md",
+    "Untitled Kanban.md",
+    "Excalidraw/Drawing 2025-12-02 22.52.44.excalidraw.md",
+    "Excalidraw",
+    "Untitled.md",
+    "Notion/Lore’s Notebook/Software/Software/Software.base",
+    "Notion/Lore’s Notebook/Websites/Websites.md",
+    "Notion/Lore’s Notebook/Websites/Websites/sindresorhusawesome 😎 Awesome lists about all kinds of interesting topics.md",
+    "og.png",
+    "colorpalettepro.png",
+    "Notion/Lore’s Notebook/Websites/Websites/Vim Videos - Flarfnoogins.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Learning Vim in 2014 - Herding Lions.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Vimcasts - Free screencasts about the text editor Vim.md",
+    "Notion/Lore’s Notebook/Websites/Websites/GitHub - valemanAwesome_Math_Books.md",
+    "Notion/Lore’s Notebook/Websites/Websites/GitHub - mhinzvim-galore mortar_board All things Vim!.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Ray Tracing in One Weekend Series.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Advanced Bash-Scripting Guide.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Bash Guide for Beginners.md",
+    "Notion/Lore’s Notebook/Software/Software/Aerospace.md",
+    "Notion/Lore’s Notebook/Software/Software/Ventoy.md",
+    "Notion/Lore’s Notebook/Software/Software/veesotermscp 🖥 A feature rich terminal UI file transfer and explorer with support for SCPSFTPFTPS3SMB.md",
+    "Notion/Lore’s Notebook/Software/Software/btop.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Rebrickable - Build with LEGO.md",
+    "Notion/Lore’s Notebook/Software/Software/d12frostedhomebrew-emacs-plus Emacs Plus formulae for the Homebrew package manager/New database/Untitled 1.md",
+    "Notion/Lore’s Notebook/Websites/Websites/Find any website's RSS feed (if any).md",
+    "og-image.bb6b5384.png",
+    "fb.png",
+    "AIdro_mx14E_G8xV2RfuwQ6pmFJq3gsbBjo_kcrRiBd7WAzCA_ks900-c-k-c0x00ffffff-no-rj.bin",
+    "awesome-iptv.bin",
+    "bluetui-logo-anim.svg",
+    "httpsgithub.comd12frostedhomebrew-emacs-plusrawmasterimagesscreenshot-no-titlebar-square-corners.png",
+    "httpsgithub.comd12frostedhomebrew-emacs-plusrawmastericonspreviewEmacsIcon3_128.png",
+    "httpsgithub.comd12frostedhomebrew-emacs-plusrawmastericonspreviewemacs-card-carmine_128.png",
+    "httpsgithub.comd12frostedhomebrew-emacs-plusrawmastericonspreviewdragon_128.png",
+    "httpsgithub.comd12frostedhomebrew-emacs-plusrawmastericonspreviewc9rgreen-sonoma_128.png",
+    "Notion/Lore’s Notebook/Websites/Websites/Websites.base",
+    "Notion/Lore’s Notebook/Websites/Websites",
+    "Notion/Lore’s Notebook/Websites",
+    "Notion/Lore’s Notebook/Software/Software/d12frostedhomebrew-emacs-plus Emacs Plus formulae for the Homebrew package manager/New database/New database.base",
+    "Notion/Lore’s Notebook/Software/Software/d12frostedhomebrew-emacs-plus Emacs Plus formulae for the Homebrew package manager/New database"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Description": "text",
+    "URL": "text",
+    "Platform": "multitext",
+    "round corners": "text",
+    "Files": "multitext",
+    "Option": "text",
+    "Author": "text",
+    "Categories": "multitext"
+  }
+}

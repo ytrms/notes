@@ -103,9 +103,8 @@ function highlight(searchTerm: string, text: string, trim?: boolean) {
     })
     .join(" ")
 
-  return `${startIndex === 0 ? "" : "..."}${slice}${
-    endIndex === tokenizedText.length - 1 ? "" : "..."
-  }`
+  return `${startIndex === 0 ? "" : "..."}${slice}${endIndex === tokenizedText.length - 1 ? "" : "..."
+    }`
 }
 
 function highlightHTML(searchTerm: string, el: HTMLElement) {
@@ -163,6 +162,12 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   const searchLayout = searchElement.querySelector(".search-layout") as HTMLElement
   if (!searchLayout) return
+
+  const searchTitle = searchElement.querySelector(".search-title") as HTMLElement
+  if (searchTitle) {
+    const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0
+    searchTitle.innerText += isMac ? " (⌘ K)" : " (Ctrl K)"
+  }
 
   const idDataMap = Object.keys(data) as FullSlug[]
   const appendLayout = (el: HTMLElement) => {

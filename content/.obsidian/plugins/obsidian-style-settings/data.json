@@ -1,0 +1,9 @@
+{
+  "Components@@Ribbon-autohide": true,
+  "Components@@nav-header-autohide": true,
+  "Components@@tab-title-bar-autohide": true,
+  "Components@@vault-profile-autohide": false,
+  "Components@@status-bar-autohide": true,
+  "Components@@CTA-BTN-enable": false,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker"
+}
