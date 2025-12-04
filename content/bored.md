@@ -1,5 +1,6 @@
 ---
 draft: "true"
+title: Bored?
 ---
 - Make a small videogame
     - with [dragonruby](https://dragonruby.org/)

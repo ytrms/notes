@@ -1,7 +1,7 @@
 {
   "accentColor": "#515590",
   "cssTheme": "Border",
-  "interfaceFontFamily": "Cartograph CF,TX-02",
-  "textFontFamily": "Cartograph Mono CF,TX-02",
-  "monospaceFontFamily": "TX-02,Cartograph Mono CF"
+  "interfaceFontFamily": "B612,Cartograph CF,TX-02,Inter",
+  "textFontFamily": "Cartograph Mono CF,B612 Mono,TX-02",
+  "monospaceFontFamily": "B612 Mono,TX-02,Cartograph Mono CF"
 }
