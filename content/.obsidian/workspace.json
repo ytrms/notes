@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software I recommend.md",
+                "file": "software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software I recommend"
+              "title": "software"
             }
           }
         ],
@@ -239,10 +239,10 @@
   },
   "active": "1f0415fa61e27444",
   "lastOpenFiles": [
+    "websites.md",
+    "software.md",
     "index.md",
     "arrr.md",
-    "websites.md",
-    "Software I recommend.md",
     "Bored?.md",
     "!meta.md",
     "State of the Apps – 2025.md",
