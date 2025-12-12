@@ -1,13 +1,3 @@
 ---
 draft: "true"
 ---
-- Make a small videogame
-    - with [dragonruby](https://dragonruby.org/)
-    - with [godot](https://www.notion.so/2af5791c975f81ac9852f2c948f5bcbe?pvs=21)
-    - with [love2d](https://love2d.org/)
-- write today’s journal entry
-- update LOVE’s docsets on Dash for 11.5
-- go through K&R
-- Build a compiler
-	- [https://kmicinski.com/functional-programming/2025/11/23/build-a-language/](https://kmicinski.com/functional-programming/2025/11/23/build-a-language/)
-- add a ‘hobbies’ page to my personal website with my hobbies
