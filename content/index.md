@@ -2,6 +2,8 @@
 title: Home
 tags:
 ---
-It looks like you found my notes. That's serendipitous.
+Hi! It looks like you found my notes. That's serendipitous.
 
-Do you wanna hear about [[software|my favorite software]]?  No?
+I do have a "regular" blog, which you can find at [trms.me](https://trms.me), but these days I'm liking this style of writing and publishing a bit more. It's lower friction.
+
+Now, do you wanna hear about [[software|my favorite software]]?  No?
