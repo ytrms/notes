@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "websites.md",
+                "file": "bored.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "websites"
+              "title": "bored"
             }
           }
         ],
@@ -239,13 +239,13 @@
   },
   "active": "1f0415fa61e27444",
   "lastOpenFiles": [
+    "websites.md",
     "i-want-to/run-an-internet-speed-test.md",
     "i-want-to.md",
     "i-want-to",
     "index.md",
     "software.md",
-    "websites.md",
-    "Bored?.md",
+    "bored.md",
     "arrr.md",
     "!meta.md",
     "State of the Apps – 2025.md",
