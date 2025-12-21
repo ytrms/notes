@@ -1,6 +1,10 @@
 ---
 title: Creating a Hyper key for custom keyboard shortcuts
 ---
+
+> [!info] TL;DR
+> Setting up a Hyper key allows you to have an extra modifier key which you can then bind, in combination with other keys, to do anything you want on your computer. For example, I press Hyper + B to open my browser from anywhere.
+
 I like making custom keyboard shortcuts for stuff on my computer, especially when paired with app launchers like [Raycast](https://raycast.com).
 
 Thing is, you never know which shortcuts are already in use by your system or by individual apps. You wouldn't want to create a custom keyboard shortcut which overwrites something important somewhere else. The "Hyper" key is the solution to this.
