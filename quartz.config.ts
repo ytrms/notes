@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Lorenzo's Notes",
-    pageTitleSuffix: "",
+    pageTitle: "Notes by Lorenzo Gravina",
+    pageTitleSuffix: " | Notes by Lorenzo Gravina",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -21,7 +21,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "local",
       cdnCaching: true,
       typography: {
         // title: "Bodoni Moda",

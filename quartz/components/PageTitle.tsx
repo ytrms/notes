@@ -4,11 +4,14 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
-  const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
+  const siteTitle = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
+  const displayTitle = "NOTES"
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
+      <a href={baseDir} aria-label={siteTitle} title={siteTitle}>
+        {displayTitle}
+      </a>
     </h2>
   )
 }
