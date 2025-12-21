@@ -18,7 +18,7 @@ Here's how you can accomplish this on macOS. (on Windows, you can accomplish thi
    ![[Pasted image 20251221093859.png]]
 3. Paste the following in the dialog that pops up
 
-```
+```json
 {
   "manipulators": [
     {
