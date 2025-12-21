@@ -29,6 +29,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Eurostile Semibold";
+  src: url("/static/fonts/EurostileNextPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "Univers Regular", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -57,6 +65,12 @@ thead {
 .folder-container button span {
   font-family: "Univers Bold", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.article-title {
+  font-family: "Univers Bold", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
 }
 
 .page-title {
