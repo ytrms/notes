@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hobbies/board-games.md",
+                "file": "software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "board-games"
+              "title": "software"
             }
           },
           {
@@ -237,11 +237,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d505358ee8423328",
+  "active": "8708fea90b4f44c9",
   "lastOpenFiles": [
+    "hobbies/board-games.md",
     "assets/Root_Base_Walking_Through_Root_web_Oct_15_2020.pdf",
     "assets/Root_Base_Learn_to_Play_web_Oct_15_2020.pdf",
-    "hobbies/board-games.md",
     "assets/Root_Base_Learn_to_Play_web_Oct_15_2020 1.pdf",
     "assets",
     "Root_Base_Walking_Through_Root_web_Oct_15_2020.pdf",
@@ -260,7 +260,6 @@
     "essential-os-settings.md",
     "index.md",
     "hyper-key.md",
-    "impala.bin",
     "websites.md",
     "software.md",
     "i-want-to.md",
