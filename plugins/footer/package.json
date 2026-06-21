@@ -1,0 +1,24 @@
+{
+  "name": "footer",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "footer",
+    "displayName": "Lorenzo Footer",
+    "description": "Footer that renders page updated metadata.",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "Footer": {
+        "name": "Footer",
+        "displayName": "Lorenzo Footer",
+        "description": "Renders page updated metadata in the footer.",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

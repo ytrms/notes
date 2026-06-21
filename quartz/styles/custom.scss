@@ -1,3 +1,188 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// body {
+//   background: linear-gradient(to bottom, #ffffff, var(--light)) no-repeat top center / 100% 600px, var(--light);
+// }
+
+@font-face {
+  font-family: "Eurostile Next Pro Ext Light";
+  src: url("/static/fonts/EurostileNextPro-ExtLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eurostile Next Pro";
+  src: url("/static/fonts/EurostileNextPro-ExtLight.ttf") format("truetype");
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eurostile Next Pro";
+  src: url("/static/fonts/EurostileNextPro-ExtLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Univers Bold";
+  src: url("/static/fonts/UniversBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Univers Regular";
+  src: url("/static/fonts/UniversRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eurostile Semibold";
+  src: url("/static/fonts/EurostileNextPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family:
+    "Univers Regular", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  font-family:
+    "Univers Bold", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--dark);
+}
+
+.folder-title {
+  font-family:
+    "Univers Bold", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.folder-container,
+.folder-container a,
+.folder-container button,
+.folder-container button span {
+  font-family:
+    "Univers Bold", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.article-title {
+  font-family:
+    "Univers Bold", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
+}
+
+.page-title {
+  font-family:
+    "Eurostile Next Pro", "Eurostile Next Pro Ext Light", system-ui, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+}
+
+.page-title a {
+  color: var(--dark);
+  letter-spacing: 0;
+}
+
+@media all and ($mobile) {
+  .flex-component > div:has(> .search) {
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    flex-basis: auto !important;
+    height: 24px;
+  }
+}
+
+.search {
+  min-width: fit-content;
+  max-width: 14rem;
+
+  @media all and ($mobile) {
+    flex-grow: 0;
+    min-width: 20px;
+    max-width: 20px;
+    width: 20px;
+  }
+
+  & > .search-button {
+    @media all and ($mobile) {
+      width: 20px;
+      height: 20px;
+      justify-content: center;
+      padding: 0;
+      border: none;
+    }
+
+    & > p {
+      text-wrap: unset;
+
+      @media all and ($mobile) {
+        display: none;
+      }
+    }
+
+    & svg {
+      @media all and ($mobile) {
+        width: 20px;
+        min-width: 20px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.content-meta {
+  margin-top: 0;
+  color: var(--gray);
+
+  &[show-comma="true"] {
+    > *:not(:last-child) {
+      margin-right: 8px;
+
+      &::after {
+        content: ",";
+      }
+    }
+  }
+}
+
+.explorer button.mobile-explorer {
+  color: green;
+  padding: 5px 5px 5px 0;
+}
+
+.explorer button.desktop-explorer {
+  display: none;
+}
+
+.explorer-content {
+  margin-top: 0;
+}
+
+@media all and ($mobile) {
+  .explorer .explorer-content {
+    padding: 4rem 0 10rem 0;
+  }
+}

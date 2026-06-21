@@ -1,0 +1,24 @@
+{
+  "name": "lore-search-enhancements",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "lore-search-enhancements",
+    "displayName": "Lorenzo Search Enhancements",
+    "description": "Small search UI enhancements for the notes site.",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "LoreSearchEnhancements": {
+        "name": "LoreSearchEnhancements",
+        "displayName": "Lorenzo Search Enhancements",
+        "description": "Adds shortcut text to the search button label.",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

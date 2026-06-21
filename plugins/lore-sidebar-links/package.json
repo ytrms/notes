@@ -1,0 +1,24 @@
+{
+  "name": "lore-sidebar-links",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "lore-sidebar-links",
+    "displayName": "Lorenzo Sidebar Links",
+    "description": "Personal links in the left sidebar.",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "LoreSidebarLinks": {
+        "name": "LoreSidebarLinks",
+        "displayName": "Lorenzo Sidebar Links",
+        "description": "Renders personal links in the left sidebar.",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

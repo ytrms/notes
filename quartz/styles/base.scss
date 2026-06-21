@@ -164,7 +164,7 @@ a {
   margin: 0 auto;
   & article {
     & > h1 {
-      font-size: 2rem;
+      font-size: 1.65rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -190,6 +190,7 @@ a {
 
   & > #quartz-body {
     display: grid;
+    min-height: 100vh;
     grid-template-columns: #{map.get($desktopGrid, templateColumns)};
     grid-template-rows: #{map.get($desktopGrid, templateRows)};
     column-gap: #{map.get($desktopGrid, columnGap)};
@@ -573,7 +574,7 @@ p {
     }
 
     & > * {
-      line-height: 2rem;
+      line-height: 1.5rem;
     }
   }
 }

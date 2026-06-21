@@ -1,0 +1,24 @@
+{
+  "name": "lore-page-title",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "lore-page-title",
+    "displayName": "Lorenzo Page Title",
+    "description": "Custom NOTES site title for notes.lorenzogravina.com.",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "LorePageTitle": {
+        "name": "LorePageTitle",
+        "displayName": "Lorenzo Page Title",
+        "description": "Renders the custom NOTES/by Lorenzo Gravina home link.",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
