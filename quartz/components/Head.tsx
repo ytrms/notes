@@ -26,6 +26,8 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
+    const darkIconPath = joinSegments(baseDir, "static/icon-dark.png")
+    const iconVersion = "2026-06-21"
 
     // Url of current page
     const socialUrl =
@@ -91,10 +93,16 @@ export default (() => {
           </>
         )}
 
-        <link rel="icon" href={iconPath} media="(prefers-color-scheme: light)" />
         <link
           rel="icon"
-          href={joinSegments(baseDir, "static/icon-dark.png")}
+          type="image/png"
+          href={`${iconPath}?v=${iconVersion}`}
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href={`${darkIconPath}?v=${iconVersion}`}
           media="(prefers-color-scheme: dark)"
         />
         <meta name="description" content={description} />
