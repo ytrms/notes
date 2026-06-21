@@ -106,6 +106,10 @@ thead {
   letter-spacing: 0;
 }
 
+.darkmode {
+  display: block;
+}
+
 @media all and ($mobile) {
   .flex-component > div:has(> .search) {
     flex-grow: 0 !important;
