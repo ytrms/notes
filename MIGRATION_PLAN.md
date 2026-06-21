@@ -94,8 +94,8 @@ return 404 on v4.
 
 ### 8. Deployment Readiness
 
-- [x] Keep the GitHub Pages workflow on the production `v4` branch while the site source itself
-      upgrades to Quartz v5. GitHub Pages environment protection currently allows `v4`.
+- [x] Update GitHub Pages environment protection to allow the `v5` branch.
+- [x] Update GitHub Pages workflow from `v4` to the v5 branch.
 - [x] Add Quartz v5 plugin install step and cache `.quartz/plugins`.
 - [x] Document residual differences, if any.
 
@@ -127,8 +127,11 @@ return 404 on v4.
   `/static/icon.png`, and `/static/icon-dark.png`.
 - 2026-06-21: Added a GitHub Pages deploy workflow with Node 24, dependency/plugin caching, and
   `npx quartz plugin install --from-config`. A first deployment attempt from branch `v5` built
-  successfully but was rejected by GitHub Pages environment protection because only `v4` is allowed
-  to deploy; the workflow now targets the production `v4` branch.
+  successfully but was rejected by GitHub Pages environment protection because only `v4` was
+  allowed to deploy. Added `v5` to the `github-pages` environment's deployment branch policies so
+  the workflow can deploy from the branch that matches the Quartz version.
+- 2026-06-21: Confirmed `npx quartz sync` remains the normal sync command. Quartz v5's sync command
+  pulls from `origin/v5`, commits local changes, then force-pushes the current branch.
 - 2026-06-21: Final elevated `npx quartz build` succeeds. `npx tsc --noEmit` succeeds, and targeted
   Prettier checks pass for migration code/config/plan files. Full `npm run check` still reports
   Prettier warnings in restored note content; those markdown files were intentionally not
