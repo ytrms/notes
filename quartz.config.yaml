@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Notes by Lorenzo Gravina
-  pageTitleSuffix: " | Notes by Lorenzo Gravina"
+  pageTitle: Lorenzo Gravina Notes
+  pageTitleSuffix: " | Lorenzo Gravina Notes"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -22,24 +22,24 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#28634b"
-        tertiary: "#84a584"
-        highlight: rgba(143, 169, 159, 0.15)
+        light: "#ffffff"
+        lightgray: "#d8d8d8"
+        gray: "#8a8a8a"
+        darkgray: "#000000"
+        dark: "#000000"
+        secondary: "#000000"
+        tertiary: "#666666"
+        highlight: rgba(0, 0, 0, 0.06)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7baa97"
-        tertiary: "#84a592"
-        highlight: rgba(143, 169, 159, 0.15)
+        light: "#101010"
+        lightgray: "#383838"
+        gray: "#8f8f8f"
+        darkgray: "#ffffff"
+        dark: "#ffffff"
+        secondary: "#ffffff"
+        tertiary: "#b8b8b8"
+        highlight: rgba(255, 255, 255, 0.08)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/note-properties
@@ -177,8 +177,7 @@ plugins:
     enabled: true
     layout:
       position: left
-      priority: 40
-      group: toolbar
+      priority: 70
   - source: github:quartz-community/reader-mode
     enabled: false
   - source: github:quartz-community/explorer
@@ -186,17 +185,6 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: ./plugins/lore-sidebar-links
-    enabled: true
-    options:
-      links:
-        X: https://x.com/loregrav
-        YouTube: https://www.youtube.com/@trms_me
-        GitHub: https://github.com/ytrms
-        Main personal website: https://lorenzogravina.com
-    layout:
-      position: left
-      priority: 60
   - source: github:quartz-community/graph
     enabled: false
   - source: github:quartz-community/backlinks
@@ -232,11 +220,6 @@ plugins:
     layout:
       position: afterBody
       priority: 10
-  - source: ./plugins/lore-search-enhancements
-    enabled: true
-    layout:
-      position: afterBody
-      priority: 90
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/encrypted-pages

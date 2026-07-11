@@ -22,51 +22,46 @@ export function LorePageTitle() {
           "aria-label": cfg.pageTitle,
           title: cfg.pageTitle,
         },
-        h("span", { class: "page-title-main" }, "NOTES"),
-        h("span", { class: "page-title-subtitle" }, "by Lorenzo Gravina"),
+        h("span", { class: "page-title-line" }, "Lorenzo"),
+        h("span", { class: "page-title-line" }, "Gravina"),
+        h("span", { class: "page-title-line page-title-notes" }, "Notes"),
       ),
     )
 
   PageTitle.css = `
 .page-title {
   margin: 0;
-  font-family: "Eurostile Next Pro", "Eurostile Next Pro Ext Light", var(--titleFont);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   color: var(--dark);
-  line-height: 82.522%;
+  line-height: 0.98;
 }
 
 .page-title a {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: inherit;
-  letter-spacing: 0;
+  letter-spacing: normal;
   text-decoration: none;
 }
 
-.page-title-main {
-  font-size: 36px;
-  font-weight: 300;
-  line-height: 82.522%;
+.page-title-line {
+  display: block;
+  font-size: clamp(2.85rem, 4.2vw, 4rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.07em;
 }
 
-.page-title-subtitle {
-  display: block;
-  font-size: 16px;
-  font-weight: 250;
-  line-height: 82.522%;
-  margin-top: 0;
-  padding-left: 2.5px;
+.page-title-notes {
+  color: var(--gray);
 }
 
 @media all and (max-width: 800px) {
-  .page-title-main {
-    font-size: 28px;
-  }
-
-  .page-title-subtitle {
-    font-size: 14px;
+  .page-title-line {
+    font-size: 2rem;
+    line-height: 0.9;
   }
 }
 `
