@@ -163,6 +163,12 @@
       "commit": "3dcfedcb5ae5e28b71248a72665ccb881e82c185",
       "installedAt": "2026-06-21T13:05:51.626Z"
     },
+    "lore-mobile-explorer-init": {
+      "source": "./plugins/lore-mobile-explorer-init",
+      "resolved": "/Users/lorenzo/Repos/quartz/plugins/lore-mobile-explorer-init",
+      "commit": "local",
+      "installedAt": "2026-07-12T06:50:45.913Z"
+    },
     "lore-page-title": {
       "source": "./plugins/lore-page-title",
       "resolved": "/Users/lorenzo/Repos/quartz/plugins/lore-page-title",

@@ -180,6 +180,11 @@ plugins:
       priority: 70
   - source: github:quartz-community/reader-mode
     enabled: false
+  - source: ./plugins/lore-mobile-explorer-init
+    enabled: true
+    layout:
+      position: left
+      priority: 45
   - source: github:quartz-community/explorer
     enabled: true
     layout:

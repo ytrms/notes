@@ -1,0 +1,24 @@
+{
+  "name": "lore-mobile-explorer-init",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "lore-mobile-explorer-init",
+    "displayName": "Lorenzo Mobile Explorer Initialization",
+    "description": "Initializes Explorer without moving the page viewport.",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "LoreMobileExplorerInit": {
+        "name": "LoreMobileExplorerInit",
+        "displayName": "Lorenzo Mobile Explorer Initialization",
+        "description": "Prevents Explorer initialization from moving the page viewport.",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
